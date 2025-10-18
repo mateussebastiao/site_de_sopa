@@ -157,7 +157,7 @@ footer p {
     padding-top: 5px;
 }
 
-@media screen and (min-width:760px) {
+@media screen and (min-width:765px) {
 
     header img {
         display: none;

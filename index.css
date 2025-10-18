@@ -1,0 +1,250 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: white;
+    height: 10vh;
+    position: fixed;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header h1 {
+    font-size: 4vh;
+}
+
+header img {
+    width: 35px;
+    margin-right: 15px;
+}
+
+header nav {
+    display: none;
+}
+
+
+.main1 {
+    height: 100vh;
+    background-color: rgba(226, 141, 43, 0.747);
+    display: flex;
+    flex-direction: column-reverse;
+    
+}
+
+.main1 img {
+    height: 50vh;
+}
+
+.section0 {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+
+
+}
+
+.main1 .section0 h1 {
+padding-top: 60px;
+    font-size: 5vh;
+    text-align: center;
+    word-wrap: break-word;
+}
+
+.taço {
+    font-size: 4vh;
+    text-align: center;
+    padding-bottom: 5px;
+
+}
+
+.main1 section p {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+/* estilo do cardapio*/
+.cardapio {
+    background-color: rgba(241, 241, 241, 0.87);
+    display: flex;
+    flex-direction: column;
+    height: 250vh;
+}
+
+.cardapio h1 {
+    text-align: center;
+    font-size: 5vh;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+
+    background-color: rgb(255, 255, 255);
+    margin: auto;
+}
+
+.section1 img {
+    width: 90vw;
+    height: 50vh;
+    padding-top: 10px;
+
+}
+
+.section1 h1 {
+    font-size: 3vh;
+    text-align: left;
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section1 p {
+    padding-left: 10px;
+    padding-top: 5px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.p {
+    text-align: right;
+    font-size: 3vh;
+    padding-right: 5px;
+}
+
+/* estilo do sobre*/
+.sobre {
+
+    margin-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre img {
+    border-radius: 0px 90px;
+    width: 93vw;
+    height: 60vh;
+    margin: auto;
+}
+
+.section2 h1 {
+    text-align: center;
+    padding-top: 6px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.section2 p {
+    text-align: center;
+    padding-top: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+footer {
+    background-color: rgb(221, 219, 219);
+}
+
+footer p {
+    text-align: center;
+    padding-top: 5px;
+}
+
+@media screen and (min-width:735px) {
+
+    header img {
+        display: none;
+    }
+
+    header nav {
+        display: block;
+        padding-right: 15px;
+    }
+
+    header nav a {
+        padding: 0px 30px;
+        color: black;
+        text-decoration: none;
+        font-size: 2vh;
+    }
+    .main1{
+        flex-direction: row;
+    }
+    .main1 img{
+        width: 55vw;
+        height: 100vh;
+    }
+    .section0 p{
+        padding-bottom: 50px;
+        font-size: 2.5vh;
+        
+    }
+    /* estilo do cardapio*/
+.cardapio{
+    height: 100vh;
+}
+    .cardapio h1{
+        padding-top: 15px;
+    }
+    
+    .section1{
+        flex-direction: row;
+        height: 23vh;
+    }
+    .section1 img{
+        padding: 4px 8px;
+        width: 24vw;
+        height: 21vh;
+    
+    }
+    .section1 p{
+     font-size: 2vh;
+    }
+/* estilo do sobre*/
+.sobre{
+    flex-direction: row;
+    height: 100vh;
+}
+.section2{
+  background-color: rgb(241, 241, 241);
+    height: 60vh;
+    width: 100vw;
+    margin:auto 
+}
+.section2 p{
+    font-size:2vw ;
+    word-wrap: break-word;
+    padding: 5px 3px ;
+}
+.sobre img{
+    margin-left: 20px;
+    height: 70vh;
+}
+
+
+
+}
+
+@media screen and (min-width:992px) and (max-width:1280px) {
+      header nav a {
+        padding: 0px 15px;
+    
+    }
+    .section2 p{
+    font-size:1.5vw ;
+    padding: 8px 0px ;
+    word-wrap: break-word;
+
+}
+.sobre img{
+    margin-left: 20px;
+    height: 80vh;
+}
+}

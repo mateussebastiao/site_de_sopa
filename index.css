@@ -104,6 +104,7 @@ padding-top: 60px;
     margin: auto;
 }
 
+
 .section1 img {
     width: 70vw;
     height: 30vh;
@@ -213,6 +214,7 @@ footer p {
         flex-direction: row;
         height: 23vh;
     }
+    
     .section1 img{
         padding: 0px 8px 15px 13px;
         width: 24vw;
